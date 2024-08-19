@@ -14,7 +14,7 @@ context('Exercicio - Testes End-to-end - Fluxo de pedido', () => {
       });
    
     it('Deve fazer um pedido na loja Ebac Shop de ponta a ponta', () => {
-      let qtd = 3
+      let qtd = 4
       cy.get('#primary-menu > .menu-item-629 > a').click()
       cy.get('.post-2559 > .product-block').click()
       cy.get('.button-variable-item-M').click()
